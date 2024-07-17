@@ -4,3 +4,20 @@
 - git pull
 - git push
 - git init
+
+2. Kiến thức:
+- staging area là một khu vực trung gian của Git mà nó sẽ được chuẩn bị cho quá trình commit
+Lưu trữ những thay đổi trên tập tin để nó có thể được commit
+Một tập tin nằm trong staging area có trạng thái là staged (được sắp xếp/tổ chức)
+- sơ đồ đơn giản:
+working directory: git add --> staging area: git commit --> git push --> repo
+
+
+3. Yêu cầu:
+- chức năng của lệnh "git diff":
++ được sử dụng để xem sự khác biệt giữa các thay đổi trong thư mục làm việc (working directory) và staging area,
+hoặc giữa staging area và commit trước đó
++ kiểm tra những thay đổi trước khi lưu những thay đổi đó vào commit hoặc trước khi đẩy lên remote repo
++ 
+- hiểu biết về code:
++ 
